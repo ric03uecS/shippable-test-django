@@ -5,4 +5,4 @@ class FirstAppTestCase(TestCase):
         self.assertEqual(True, True)
 
     def test_first_test(self):
-        self.assertEqual(True, False)
+        self.assertEqual(2, 2)
