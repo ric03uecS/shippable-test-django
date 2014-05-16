@@ -85,4 +85,5 @@ STATIC_URL = '/static/'
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
-NOSE_ARGS = ['--with-xunit', '--xunit-file=shippable/testresults/nosetests.xml']
+NOSE_ARGS = ['--with-coverage', '--cover-package=.', '--with-xunit',
+    '--xunit-file=shippable/testresults/nosetests.xml']
